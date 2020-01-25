@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './containers/nav-bar'
 
 export default class App extends React.Component{
   constructor(props){
@@ -9,14 +10,14 @@ export default class App extends React.Component{
   }
 
   renderSelector(){
-    let components;
-
+    let components = <NavBar/>;
     return components;
   }
 
   render(){
+    let componentTree = this.renderSelector();
     return(
-      <div>PigSmart</div>
+      componentTree
     );
   }
 }
