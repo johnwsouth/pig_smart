@@ -1,0 +1,30 @@
+div#root{
+  background-color: black;
+  height: 100vh;
+  font-family: 'Muli', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.nav-bar-container{
+  color: white;
+  height: 3vmax;
+  width: 48vmax;
+  background-color: rgba(120, 119, 118, 0.15);
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  margin-top: 1vmax;
+  margin-right: 1vmax;
+  right: 0;
+}
+
+.nav-bar-item{
+  color: white;
+  width: 32.9%;
+  font-size: 1.4vmax;
+  display: inline-block;
+  text-align: right;
+}
