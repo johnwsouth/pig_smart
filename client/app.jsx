@@ -1,6 +1,9 @@
 import React from 'react';
 import NavBar from './components/nav-bar';
 import LandingPage from './containers/landing-page'
+import Button from '@material-ui/core/Button'
+import NutritionTable from './components/nutrition-table';
+
 
 export default class App extends React.Component{
   constructor(props){
@@ -14,7 +17,10 @@ export default class App extends React.Component{
     let components;
     let returnedComponents;
     if (this.state.currentPage === 'landing-page'){
-      returnedComponents = <LandingPage/>
+      returnedComponents = <>
+        <LandingPage/>
+      </>
+
     }
 
     return (

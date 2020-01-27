@@ -1,7 +1,7 @@
 div#root{
   background-color: black;
   height: 100vh;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 .nav-bar-container{
   color: white;
   height: 3vmax;
-  width: 48vmax;
+  width: 35vmax;
   background-color: rgba(120, 119, 118, 0.15);
   display: flex;
   position: fixed;
@@ -19,18 +19,22 @@ body{
   margin-top: 1vmax;
   margin-right: 1vmax;
   right: 0;
+  align-items: center;
+  z-index: 3;
 }
 
 .nav-bar-item{
   color: white;
-  width: 32.9%;
   font-size: 1.4vmax;
   display: inline-block;
   text-align: right;
+  margin: 1vmax;
 }
 
-.macronutrient-nav
-
+.nav-bar-item:hover{
+  color: rgb(255, 196, 0);
+  cursor: pointer;
+}
 
 .landing-page{
   height: 100vh;

@@ -13,7 +13,7 @@ export default class NavBar extends React.Component{
     let navItemClassArray = ['macronutrient-nav', 'recipes-nav', 'special-offers-nav']
     let navItemArray = []
     for(let i = 0; i < 3; i++){
-      navItemArray.push(<div key={navItemTextArray[i]} className={'nav-bar-item ' + navItemClassArray[i]} >{navItemTextArray[i]}</div>)
+      navItemArray.push(<div key={navItemTextArray[i]} className={'nav-bar-item ' + navItemClassArray} >{navItemTextArray[i]}</div>)
     }
     return(
     <div className="nav-bar-container">
