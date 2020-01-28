@@ -11,23 +11,23 @@ export default function NutritionTable() {
       {
         title: 'Birth Place',
         field: 'birthCity',
-        lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
+        lookup: { 1: 'Nishi Funabashi', 2: 'Ohio' },
       },
     ],
     data: [
-      { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+      { name: 'John', surname: 'South', birthYear: 1994, birthCity: 1 },
       {
-        name: 'Zerya Betül',
-        surname: 'Baran',
-        birthYear: 2017,
-        birthCity: 34,
+        name: 'David',
+        surname: 'South',
+        birthYear: 1993,
+        birthCity: 1,
       },
     ],
   });
 
   return (
     <MaterialTable
-      title="Editable Example"
+      title="Today's Totals"
       columns={state.columns}
       data={state.data}
       editable={{
